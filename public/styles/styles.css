@@ -1,0 +1,164 @@
+h1{
+  display:flex;
+  justify-content: center;
+  font-family:"Creepster";
+  color:#A91D3A;
+  font-size:75px;
+}
+body{
+  background-color:#151515;
+}
+
+.cat_cont{
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  gap:25px;
+  height:100px;
+
+}
+
+.container{
+  margin-bottom:100px;
+  width:100%;
+}
+
+.sensitive_cont{
+
+  display:flex;
+  justify-content: center;
+  width:100%;
+  font-family:"Creepster";
+  color:#A91D3A;
+  font-size:37px;
+
+}
+
+.checkbox_cont{
+  font-family:"Creepster";
+  background-color:#C73659;
+  display:flex;
+  justify-content: center;
+  gap:40px;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:50px;
+  height:50px;
+}
+
+
+
+.bigcont{
+  display:flex;
+  justify-content: center;
+  height:70vh;
+  width:100%;
+  align-items: center;
+}
+
+.baseform{
+  display:flex;
+  gap:20px;
+  flex-direction:column;
+}
+
+
+select{
+  width:500px;
+}
+
+.sensitive{
+  display:flex;
+  justify-content: center;
+  font-family:"Creepster";
+  color:#A91D3A;
+  font-size:37px;
+  
+}
+
+.submitter{
+  background-color:#EEEEEE;
+  font-family:"Creepster";
+  color:#A91D3A;
+  font-size:20px;
+  border-style:solid;
+  border-color:rgb(255, 84, 84);
+  border-radius:15px;
+  width:300px;
+  height:87px;
+  font-size:33px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition:box-shadow 0.5s, background-color 0.5s, color 0.5s;
+}
+
+.submitter:hover{
+  cursor:pointer;
+  background-color:#A91D3A;
+  color:#EEEEEE;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+}
+
+
+.button_cont{
+  display:flex;
+  justify-content: center;
+  background-color:#151515;
+  width:100%;
+
+}
+
+.jokecontainer{
+  display:flex;
+  justify-content: center;
+  background-color:#EEEEEE;
+  color:#C73659;
+  font-family:'roboto';
+  width:100%;
+  height:200px;
+}
+
+
+.jokee{
+  font-size:25px;
+  font-family:'roboto';
+  color:#C73659;
+}
+
+
+.setdel{
+  color:#C73659;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size:25px;
+  font-family:'roboto';
+}
+
+.setup{
+  font-size:25px;
+  font-family:'roboto';
+}
+
+.delivery{
+  font-size:20px;
+  font-family:'roboto';
+
+}
+
+.string_cont{
+  display:flex;
+  justify-content: center;
+  height:25px;
+  margin-bottom:20px;
+
+}
+
+.content{
+  font-size:15px;
+  font-family:'roboto';
+  width:100%;
+
+}
